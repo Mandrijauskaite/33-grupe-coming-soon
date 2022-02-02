@@ -11,5 +11,9 @@ body {
 }
 
 :root {
-    
+    --primary-color: #fff;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
 }
