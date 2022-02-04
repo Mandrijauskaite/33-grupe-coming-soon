@@ -1,11 +1,12 @@
 .clock {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     font-size: 16px;
 }
 
 .clock > .time {
-    flex: 1;
+    width: 25%;
     padding: 10px;  
 }
 
@@ -18,8 +19,8 @@
     
 }
 
-@media (max-width: 500px) {
-    .clock {
-        flex-direction: column;
+@media (max-width: 700px) {
+    .clock > .time {
+        width: 50%;
     }
 }
