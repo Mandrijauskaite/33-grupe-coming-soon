@@ -12,6 +12,7 @@ body {
 
 :root {
     --primary-color: #fff;
+    --secondary-color: #ea1e63;
 }
 
 .bg-primary {
