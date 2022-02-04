@@ -6,7 +6,7 @@
 
 /* components */
 @import '../components/button.css';
-@import '../components/clock.css';
+@import '../components/progress-bar.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -31,6 +31,20 @@
     font-size: 55 px;
     text-transform: uppercase;
     color: #333;
+}
+
+.hero .description {
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: #555;
+}
+
+.hero .clock {
+    margin-bottom: 60px;
+}
+
+.hero .form {
+    margin-bottom: 10px;
 }
 
 .main-content > .row {
